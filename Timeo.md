@@ -24,6 +24,7 @@ La valeur de recharge du timer 1 a été calculer avec la formule si dessous :
 $$
 T_{tick} = \frac{SYSCLK}{Pre \cdot Freq} - 1 = \frac{80\,\text{MHz}}{1 \cdot 40\,\text{kHz}} - 1 = 1999
 $$
+
 **SYSCLK** : Fréquence de l'horloge du PIC.
 
 **Pre** : valeur du prescaler du PIC.
