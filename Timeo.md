@@ -1,3 +1,4 @@
+
 ## Configuration du timer 1
 La valeur de recharge du timer 1 a été calculer avec la formule si dessous :
 
@@ -12,13 +13,14 @@ $$
 
 J'ai utiliser un prescaler de 256 pour ne pas dépasser la valeur de 16 bits du timer 1.
 
+Paramètre du timer 1 dans Harmony :
 ![enter image description here](Image/Timer1Para.png)
 
 ## Configuration de Timer 2 et OC 2
 La valeur de recharge du timer 1 a été calculer avec la formule si dessous :
 
 $$
-T_{tick} = \frac{SYSCLK}{Pre \cdot Freq} - 1 = \frac{80\,\text{MHz}}{16 \cdot 40\,\text{kHz}} - 1 = 124
+T_{tick} = \frac{SYSCLK}{Pre \cdot Freq} - 1 = \frac{80\,\text{MHz}}{1 \cdot 40\,\text{kHz}} - 1 = 1999
 $$
 **SYSCLK** : Fréquence de l'horloge du PIC.
 
@@ -30,4 +32,5 @@ $$
 
 J'ai utiliser un prescaler de 256 pour ne pas dépasser la valeur de 16 bits du timer 2.
 
+Paramètre du timer 2 dans Harmony :
 ![enter image description here](Image/Timer2Para.png)
