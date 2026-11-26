@@ -31,7 +31,7 @@ $$
 
 **T*tick*** : valeur du registre de reload.
 
-J'ai utiliser un prescaler de 256 pour ne pas dépasser la valeur de 16 bits du timer 2.
+J'ai utiliser un prescaler de 1.
 
 Paramètre du timer 2 dans Harmony :
 
