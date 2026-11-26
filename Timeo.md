@@ -30,4 +30,4 @@ $$
 
 J'ai utiliser un prescaler de 256 pour ne pas dépasser la valeur de 16 bits du timer 2.
 
-![enter image description here](/Image/timer2Para.png)
+![enter image description here](Image/timer2Para.png)
