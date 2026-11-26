@@ -11,3 +11,5 @@ $$
 **T*tick*** : valeur du registre de reload
 
 J'ai utiliser un prescaler de 256 pour ne pas dépasser la valeur de 16 bits du timer 1.
+
+![enter image description here](/Image/timer1Para.png)
