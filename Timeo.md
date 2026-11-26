@@ -14,6 +14,7 @@ $$
 J'ai utiliser un prescaler de 256 pour ne pas dépasser la valeur de 16 bits du timer 1.
 
 Paramètre du timer 1 dans Harmony :
+
 ![enter image description here](Image/Timer1Para.png)
 
 ## Configuration de Timer 2 et OC 2
@@ -33,4 +34,5 @@ $$
 J'ai utiliser un prescaler de 256 pour ne pas dépasser la valeur de 16 bits du timer 2.
 
 Paramètre du timer 2 dans Harmony :
+
 ![enter image description here](Image/Timer2Para.png)
