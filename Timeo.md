@@ -62,11 +62,11 @@ $$
 
 J'ai utiliser un prescaler de 1.
 
-Paramètre du timer 2 dans Harmony :
+Paramètre du timer 3 dans Harmony :
 
 ![enter image description here](Image/Timer3Para.png)
 
-Paramètre de l'OC2 dans Harmony :
+Paramètre de l'OC23 dans Harmony :
 
 ![enter image description here](Image/OC3Para.png)
 
