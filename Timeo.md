@@ -8,8 +8,11 @@ T_{tick} = \frac{SYSCLK \cdot T_{ms} }{Pre} - 1 = \frac{80\,\text{MHz} \cdot 20 
 $$
 
 **SYSCLK** : Fréquence de l'horloge du PIC
+
 **Pre** : valeur du prescaler du PIC
+
 **T*ms*** : Fréquence de interruption du timer
+
 **T*tick*** : valeur du registre de reload
 
 J'ai utiliser un prescaler de 256 pour ne pas dépasser la valeur de 16 bits du timer 1.
