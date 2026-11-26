@@ -1,4 +1,5 @@
 
+
 ## Configuration du timer 1
 La valeur de recharge du timer 1 a été calculer avec la formule si dessous :
 
@@ -36,3 +37,9 @@ J'ai utiliser un prescaler de 1.
 Paramètre du timer 2 dans Harmony :
 
 ![enter image description here](Image/Timer2Para.png)
+
+Paramètre de l'OC2 dans Harmony :
+
+![enter image description here](Image/OC2Para.png)
+
+Rapport cyclique de 50%
