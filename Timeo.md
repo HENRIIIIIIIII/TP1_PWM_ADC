@@ -1,10 +1,10 @@
 
 
-## Configuration du timer 1
+## Configuration du Timer 1
 La valeur de recharge du timer 1 a été calculer avec la formule si dessous :
 
 $$
-T_{tick} = \frac{SYSCLK \cdot T_{ms} }{Pre} - 1 = \frac{80\,\text{MHz} \cdot 20 \,\text{ms}}{256} - 1 = 6249
+T_{tick} = \frac{SYSCLK \cdot T_{ms} }{Pre} - 1 = \frac{80\,\text{MHz} \cdot 20 \text{ms}}{256} - 1 = 6249
 $$
 
 **SYSCLK** : Fréquence de l'horloge du PIC
@@ -44,3 +44,21 @@ Paramètre de l'OC2 dans Harmony :
 ![enter image description here](Image/OC2Para.png)
 
 Rapport cyclique de 50%
+
+## Configuration du Timer 4
+La valeur de recharge du timer 1 a été calculer avec la formule si dessous :
+
+$$
+T_{tick} = \frac{SYSCLK \cdot T_{ms} }{Pre} - 1 = \frac{80\,\text{MHz} \cdot 35 \text{us}}{1} - 1 = 2799
+$$
+
+**SYSCLK** : Fréquence de l'horloge du PIC
+**Pre** : valeur du prescaler du PIC
+**T*ms*** : Fréquence de interruption du timer
+**T*tick*** : valeur du registre de reload
+
+J'ai utiliser un prescaler de 1.
+
+Paramètre du timer 4 dans Harmony :
+
+![enter image description here](Image/Timer4Para.png)
